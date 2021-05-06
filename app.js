@@ -1,4 +1,4 @@
-import { checkForMatch } from '../utils.js';
+import { checkForMatch } from './utils.js';
 
 // import functions and grab DOM elements
 const guessButton = document.getElementById('guess-button');
