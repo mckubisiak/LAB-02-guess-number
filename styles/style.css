@@ -19,7 +19,8 @@ body {
     --footer-height: 25px;
     
     font-family: 'Titillium Web', sans-serif;
-    background-color: var(--color2);
+    background-color: darkgray;
+    transform: rotate(-180deg);
 }
 
 main {
@@ -67,7 +68,8 @@ h2 {
 }
 
 .gutter-right {
-    margin-right: 20px;
+    transform: rotate(-180deg);
+    margin-right: 5px;
 }
 
 .main-logo {
@@ -111,3 +113,43 @@ footer {
     }
 
   }
+
+  .title {
+      margin-top: 30px;
+      font-size: 2rem;
+      border: 3px solid white;
+      padding-left: 50px;
+      padding-right: 50px;
+  }
+
+  .rules, .gutter-right{
+      text-decoration: underline;
+      text-decoration-color: white;
+  }
+
+  button {
+      height: 6rem;
+      width: 6rem;
+      background-color: white;
+      color: black;
+      border: 2px rgba(66, 64, 64, 0.322);
+      border-style: dotted solid double dashed;
+      border-radius: 50%;
+  }
+
+  input {
+      height: 4rem;
+      width: 4rem;
+      -webkit-transform: rotate(-180deg); 
+      -moz-transform: rotate(-180deg);
+      border: double;
+      border-radius: 50%;
+      text-align: center;
+  }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
